@@ -1,5 +1,5 @@
 # SimpleObjectDetectionAndTracking
-Trying simple object detection and tracking methods using OpenCV
+Trying simple object detection and tracking methods using OpenCV with Python
 
 To run the tool:
 
