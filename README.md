@@ -45,9 +45,9 @@ To run the tool:
 
 * Python 3.6
 * OpenCV 3.2
-* Pandas 0.19.2
+* NumPy 1.12.1
+* Imutils 0.4.3
 * Tkinter 8.6
-* openpyxl 2.4.1
 
 ## Usage
 
