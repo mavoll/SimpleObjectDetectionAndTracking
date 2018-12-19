@@ -34,6 +34,9 @@ To run the tool:
     * scale
     * meanShift
 * Camshift Tracking
+  * Termination criteria:
+    * max_iter (maximum iterations)
+    * min_movement (minimum movement at pixel)
 * MIL Tracking
 * KCF Tracking
 * (AruCo Marker Detection)
