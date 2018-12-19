@@ -98,6 +98,28 @@ To run the tool:
   <img src="/images/excel_results.jpg" width="600" align="middle">
 </p>
 
+## Raspberry Pi
+To use with an Raspberry Pi:
+
+```python
+import io
+import picamera
+...
+stream = io.BytesIO()   
+        with picamera.PiCamera() as camera:
+        
+            camera.resolution = (1920, 1080)
+            camera.framerate = 25   
+            
+            for frame in camera.capture_continuous(stream, format='jpeg', use_video_port=True):
+                 
+                images = np.fromstring(stream.getvalue(), dtype=np.uint8)
+                self.img = cv2.imdecode(images, 1)                 
+                ...
+            stream.truncate()
+            stream.seek(0) 
+...
+```
 
 ## Authors
 
