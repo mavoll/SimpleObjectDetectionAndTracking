@@ -1,18 +1,32 @@
 # SimpleObjectDetectionAndTracking
-Trying simple object detection and tracking methods using OpenCV with Python
+Tool to try simple object detection and tracking methods as well as different parameters using OpenCV with Python and Tkinter
+
+It was a good starting point to gain inside multiple object detection and tracking. To detect and track many vehicles and pedestrians in crowded scenes you will need more advanced methods using convolutional neural networks (CNN) for detection and tracking as well as tracking-by-detection tracking approaches. See for example [here](https://github.com/mavoll/MotionPathsExtraction).
 
 To run the tool:
 
-* Install prerequisites and run the python script (counting_tool.py), or
+* Install prerequisites and run the python script (simpke_detection_and_tracking.py), or
 * just run the executable file (.exe file for windows; .app for mac will follow) 
 
-### Please note:
-* This tool depends on former generated tracking result files. Have a look at this [repository](https://github.com/mavoll/MotionPathsExtraction) describing an approach to extract vehicle and pedestrian motion tracks from recorded videos using open-source software.
-* You can find example tracking result files [here](/test_data/cam_01/recording_day/time_slice/tracks_01.txt).
-The format per line of those files is:
-  * [image_is, object_id, rectangle_x, rectangle_y, widht, height, object_class, not relevant, not relevant, not relevant]
-    * Object classes: {1: 'person', 2: 'bicycle', 3: 'car', 4: 'motorcycle', 6: 'bus', 8: 'truck', 17: 'dog'}
-    * rectangle_x and rectangle_y are representing the lower left corner of each rectangle
+### Following methods can be tried:
+* Haar-cascade Detection
+  * haarcascade_frontalface_default.xml 
+  * haarcascade_eye.xml    
+  * haarcascade_mcs_mouth.xml  
+  * haarcascade_upperbody.xml
+  * haarcascade_lowerbody.xml
+  * haarcascade_fullbody.xml
+  * haarcascade_eye_tree_eyeglasses.xml
+  * haarcascade_mcs_upperbody.xml
+  * haarcascade_profileface.xml
+  * haarcascade_car.xml
+  * haarcascade_head.xml
+  * haarcascade_people.xml
+* HOG-SVN Detection (cv2.HOGDescriptor_getDefaultPeopleDetector())
+* Camshift Tracking
+* MIL Tracking
+* KCF Tracking
+* (AruCo Marker Detection)
 
 ## Prerequisites and used versions
 
