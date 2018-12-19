@@ -99,7 +99,7 @@ To run the tool:
 </p>
 
 ## Raspberry Pi
-To use with an Raspberry Pi:
+To use with an Raspberry Pi do something like this:
 
 ```python
 import io
