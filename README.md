@@ -10,19 +10,29 @@ To run the tool:
 
 ### Following methods can be tried:
 * Haar-cascade Detection
-  * haarcascade_frontalface_default.xml 
-  * haarcascade_eye.xml    
-  * haarcascade_mcs_mouth.xml  
-  * haarcascade_upperbody.xml
-  * haarcascade_lowerbody.xml
-  * haarcascade_fullbody.xml
-  * haarcascade_eye_tree_eyeglasses.xml
-  * haarcascade_mcs_upperbody.xml
-  * haarcascade_profileface.xml
-  * haarcascade_car.xml
-  * haarcascade_head.xml
-  * haarcascade_people.xml
+  * Parameters:
+    * winStride
+    * padding
+    * scale
+    * meanShift
+    * haarcascade_frontalface_default.xml 
+    * haarcascade_eye.xml    
+    * haarcascade_mcs_mouth.xml  
+    * haarcascade_upperbody.xml
+    * haarcascade_lowerbody.xml
+    * haarcascade_fullbody.xml
+    * haarcascade_eye_tree_eyeglasses.xml
+    * haarcascade_mcs_upperbody.xml
+    * haarcascade_profileface.xml
+    * haarcascade_car.xml
+    * haarcascade_head.xml
+    * haarcascade_people.xml
 * HOG-SVN Detection (cv2.HOGDescriptor_getDefaultPeopleDetector())
+  * Parameters:
+    * winStride
+    * padding
+    * scale
+    * meanShift
 * Camshift Tracking
 * MIL Tracking
 * KCF Tracking
