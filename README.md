@@ -98,8 +98,8 @@ To run the tool:
   <img src="/images/excel_results.jpg" width="600" align="middle">
 </p>
 
-## Raspberry Pi
-To use with an Raspberry Pi do something like this:
+## Raspberry Pi Camera Module
+To use with the Raspberry Pi Camera Module do something like this:
 
 ```python
 import io
