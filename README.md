@@ -11,10 +11,10 @@ To run the tool:
 ### Following methods can be tried:
 * Haar-cascade Detection
   * Parameters:
-    * winStride
-    * padding
-    * scale
-    * meanShift
+    * scaleFactor
+    * minNeighbors
+    * minSize
+    * maxSize
     * haarcascade_frontalface_default.xml 
     * haarcascade_eye.xml    
     * haarcascade_mcs_mouth.xml  
