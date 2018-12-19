@@ -33,15 +33,15 @@ To run the tool:
     * padding
     * scale
     * meanShift
-* Non-Maximum Suppression (for detection and tracking)
-  * Parameters:
-    * overlapThreshold
 * Camshift Tracking
   * Termination criteria:
     * max_iter (maximum iterations)
     * min_movement (minimum movement at pixel)
 * MIL Tracking
 * KCF Tracking
+* Non-Maximum Suppression (for detection and tracking)
+  * Parameters:
+    * overlapThreshold
 * (AruCo Marker Detection)
 
 ## Prerequisites and used versions
