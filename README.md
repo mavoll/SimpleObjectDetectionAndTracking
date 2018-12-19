@@ -33,6 +33,9 @@ To run the tool:
     * padding
     * scale
     * meanShift
+* Non-Maximum Suppression (for detection and tracking)
+  * Parameters:
+    * overlapThreshold
 * Camshift Tracking
   * Termination criteria:
     * max_iter (maximum iterations)
