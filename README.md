@@ -1,7 +1,7 @@
 # SimpleObjectDetectionAndTracking
 Tool to try simple object detection and tracking methods as well as different parameters using OpenCV with Python and Tkinter
 
-It was a good starting point to gain inside multiple object detection and tracking. To detect and track many vehicles and pedestrians in crowded scenes you will need more advanced methods using convolutional neural networks (CNN) for detection and tracking as well as tracking-by-detection approaches. See for example [here](https://github.com/mavoll/MotionPathsExtraction).
+It was a good starting point to gain insight multiple object detection and tracking. To detect and track many vehicles and pedestrians in crowded scenes (or even with an moving cam) you will need more advanced methods using convolutional neural networks (CNN) for detection and tracking as well as tracking-by-detection approaches. See for example [here](https://github.com/mavoll/MotionPathsExtraction).
 
 To run the tool:
 
