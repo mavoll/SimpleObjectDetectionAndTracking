@@ -5,12 +5,12 @@ It was a good starting point to gain insight multiple object detection and track
 
 To run the tool:
 
-* Install prerequisites and run the python script (simpke_detection_and_tracking.py), or
+* Install prerequisites and run the python script (simple_detection_and_tracking.py), or
 * just run the executable file (.exe file for windows; .app for mac will follow) 
 
 ### Following methods can be tried:
 * Haar-cascade Detection
-  * Parameters:
+  * Parameters and haar-cascades (from [opencv](https://github.com/opencv/opencv/tree/master/data/haarcascades) and [Andrews Sobral](https://github.com/andrewssobral/vehicle_detection_haarcascades)):
     * scaleFactor
     * minNeighbors
     * minSize
