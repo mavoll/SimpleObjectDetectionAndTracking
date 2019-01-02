@@ -51,7 +51,8 @@ To run the tool:
 ## Prerequisites and used versions
 
 * Python 3.6
-* OpenCV 3.4
+* OpenCV 3.4 
+* OpenCV's extra modules(opencv_contrib)
 * NumPy 1.12.1
 * Imutils 0.4.3
 * Tkinter 8.6
