@@ -39,15 +39,19 @@ To run the tool:
     * min_movement (minimum movement at pixel)
 * MIL Tracking
 * KCF Tracking
+* CSRT Tracking
+* CSRT Boosting
+* TLD Boosting
+* MedianFlow Boosting
+* MOSSE Boosting
 * Non-Maximum Suppression (for detection and tracking)
   * Parameters:
     * overlapThreshold
-* (AruCo Marker Detection)
 
 ## Prerequisites and used versions
 
 * Python 3.6
-* OpenCV 3.2
+* OpenCV 3.4
 * NumPy 1.12.1
 * Imutils 0.4.3
 * Tkinter 8.6
