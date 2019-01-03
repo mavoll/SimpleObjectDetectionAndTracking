@@ -71,25 +71,25 @@ To run the tool:
   <img src="/images/gui1.png" width="600" align="middle">
 </p>
 
-3. Release the mouse button an start tracking multiple objects.
+3. Release the mouse button and start tracking for detected objects.
 
 <p align="center">
   <img src="/images/gui2.png" width="600" align="middle">
 </p>
 
-4. Check masks (HSV, RGB and Lab based) and play around with the threashold values. 
+4. Check masks (HSV, RGB and Lab based) and play around with threshold values. 
 
 <p align="center">
   <img src="/images/gui4.png" width="600" align="middle">
 </p>
 
-5. Check the masks in conjunction with the source images.
+5. Check the masks in conjunction with the source video.
 
 <p align="center">
   <img src="/images/gui3.png" width="600" align="middle">
 </p>
 
-6. Check histograms of selected ROIs (HSV, RGB and Lab based).
+6. Check histogram of selected ROI (HSV, RGB and Lab based).
 
 <p align="center">
   <img src="/images/gui5.png" width="600" align="middle">
