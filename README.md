@@ -32,11 +32,11 @@ To run the tool:
     * winStride
     * padding
     * scale
-    * meanShift
 * Camshift Tracking
   * Termination criteria:
     * max_iter (maximum iterations)
     * min_movement (minimum movement at pixel)
+    * Grouping
 * MIL Tracking
 * KCF Tracking
 * CSRT Tracking
@@ -59,48 +59,43 @@ To run the tool:
 
 ## Usage
 
-* For just trying out, you can find an image and tracking result files [here](/test_data/cam_01/recording_day/time_slice/).
-
-1. Start tool, select an image representing the cams perspective and set parameters. Default parameters are taken from the image (created at) and its path using python´s os module.
+1. Start tool, open a video file or use a webcam by id.
 
 <p align="center">
   <img src="/images/gui.png" width="600" align="middle">
 </p>
 
-2. Select tracking result files and choose the object classes you want to count for.
+2. Select an region of interest to detect within.
 
 <p align="center">
   <img src="/images/gui1.png" width="600" align="middle">
 </p>
 
-3. Select tracking result files and choose the object classes you want to count for.
+3. Release the mouse button an start tracking multiple objects.
 
 <p align="center">
   <img src="/images/gui2.png" width="600" align="middle">
 </p>
 
-4. Draw all tracks (related to former chosen object classes). Drawing all relevant tracks helps to find best positions for the counting lines. 
+4. Check masks (HSV, RGB and Lab based) and play around with the threashold values. 
 
 <p align="center">
   <img src="/images/gui4.png" width="600" align="middle">
 </p>
 
-5. Draw counting lines into image.
-
-* point p1 is the point of the line where you have started to draw the line. Accordingly p2 is the point where you have released the left mouse button. 
-* if you look from point p1 to point p2 you will always find B at the left hand side and A at the right hand side
+5. Check the masks in conjunction with the source images.
 
 <p align="center">
   <img src="/images/gui3.png" width="600" align="middle">
 </p>
 
-6. Start counting (can take a while depending off number of tracks and counting lines).
+6. Check histograms of selected ROIs (HSV, RGB and Lab based).
 
 <p align="center">
   <img src="/images/gui5.png" width="600" align="middle">
 </p>
 
-7. Choose export granularities and save results to excel. 
+7. Choose what kind of detectors and trackers you want to try and play with some parameters. 
 
 <p align="center">
   <img src="/images/gui6.png" width="600" align="middle">
