@@ -64,67 +64,47 @@ To run the tool:
 1. Start tool, select an image representing the cams perspective and set parameters. Default parameters are taken from the image (created at) and its path using python´s os module.
 
 <p align="center">
-  <img src="/images/set_image_parameter.jpg" width="600" align="middle">
+  <img src="/images/gui.png" width="600" align="middle">
 </p>
 
 2. Select tracking result files and choose the object classes you want to count for.
 
 <p align="center">
-  <img src="/images/select_tracking_files.jpg" width="450" align="middle">
-  <img src="/images/select_classes.jpg" width="150" align="middle">
+  <img src="/images/gui1.png" width="450" align="middle">
 </p>
 
-3. Draw all tracks (related to former chosen object classes). Drawing all relevant tracks helps to find best positions for the counting lines. 
+3. Select tracking result files and choose the object classes you want to count for.
 
 <p align="center">
-  <img src="/images/draw_all_tracks.jpg" width="600" align="middle">
+  <img src="/images/gui2.png" width="150" align="middle">
 </p>
 
-4. Draw counting lines into image.
+4. Draw all tracks (related to former chosen object classes). Drawing all relevant tracks helps to find best positions for the counting lines. 
+
+<p align="center">
+  <img src="/images/gui3.png" width="600" align="middle">
+</p>
+
+5. Draw counting lines into image.
 
 * point p1 is the point of the line where you have started to draw the line. Accordingly p2 is the point where you have released the left mouse button. 
 * if you look from point p1 to point p2 you will always find B at the left hand side and A at the right hand side
 
 <p align="center">
-  <img src="/images/counting_line.jpg" width="600" align="middle">
-  <img src="/images/draw_counting_lines.jpg" width="600" align="middle">
+  <img src="/images/gui4.png" width="600" align="middle">
 </p>
 
-5. Start counting (can take a while depending off number of tracks and counting lines).
+6. Start counting (can take a while depending off number of tracks and counting lines).
 
 <p align="center">
-  <img src="/images/start_counting.jpg" width="600" align="middle">
+  <img src="/images/gui5.png" width="600" align="middle">
 </p>
 
-6. Choose export granularities and save results to excel. 
+7. Choose export granularities and save results to excel. 
 
 <p align="center">
-  <img src="/images/save_results_to_excel.jpg" width="300" align="middle">
-  <img src="/images/excel_results.jpg" width="600" align="middle">
+  <img src="/images/gui6.png" width="600" align="middle">
 </p>
-
-## Raspberry Pi Camera Module
-To use with the Raspberry Pi Camera Module do something like this:
-
-```python
-import io
-import picamera
-...
-stream = io.BytesIO()   
-        with picamera.PiCamera() as camera:
-        
-            camera.resolution = (1920, 1080)
-            camera.framerate = 25   
-            
-            for frame in camera.capture_continuous(stream, format='jpeg', use_video_port=True):
-                 
-                images = np.fromstring(stream.getvalue(), dtype=np.uint8)
-                self.img = cv2.imdecode(images, 1)                 
-                ...
-            stream.truncate()
-            stream.seek(0) 
-...
-```
 
 ## Authors
 
