@@ -70,13 +70,13 @@ To run the tool:
 2. Select tracking result files and choose the object classes you want to count for.
 
 <p align="center">
-  <img src="/images/gui1.png" width="450" align="middle">
+  <img src="/images/gui1.png" width="600" align="middle">
 </p>
 
 3. Select tracking result files and choose the object classes you want to count for.
 
 <p align="center">
-  <img src="/images/gui2.png" width="150" align="middle">
+  <img src="/images/gui2.png" width="600" align="middle">
 </p>
 
 4. Draw all tracks (related to former chosen object classes). Drawing all relevant tracks helps to find best positions for the counting lines. 
@@ -91,13 +91,13 @@ To run the tool:
 * if you look from point p1 to point p2 you will always find B at the left hand side and A at the right hand side
 
 <p align="center">
-  <img src="/images/gui4.png" width="600" align="middle">
+  <img src="/images/gui5.png" width="600" align="middle">
 </p>
 
 6. Start counting (can take a while depending off number of tracks and counting lines).
 
 <p align="center">
-  <img src="/images/gui5.png" width="600" align="middle">
+  <img src="/images/gui4.png" width="600" align="middle">
 </p>
 
 7. Choose export granularities and save results to excel. 
