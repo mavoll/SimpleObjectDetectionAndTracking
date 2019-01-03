@@ -91,13 +91,13 @@ To run the tool:
 * if you look from point p1 to point p2 you will always find B at the left hand side and A at the right hand side
 
 <p align="center">
-  <img src="/images/gui5.png" width="600" align="middle">
+  <img src="/images/gui3.png" width="600" align="middle">
 </p>
 
 6. Start counting (can take a while depending off number of tracks and counting lines).
 
 <p align="center">
-  <img src="/images/gui3.png" width="600" align="middle">
+  <img src="/images/gui5.png" width="600" align="middle">
 </p>
 
 7. Choose export granularities and save results to excel. 
