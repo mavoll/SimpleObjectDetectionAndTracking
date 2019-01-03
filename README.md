@@ -82,7 +82,7 @@ To run the tool:
 4. Draw all tracks (related to former chosen object classes). Drawing all relevant tracks helps to find best positions for the counting lines. 
 
 <p align="center">
-  <img src="/images/gui3.png" width="600" align="middle">
+  <img src="/images/gui4.png" width="600" align="middle">
 </p>
 
 5. Draw counting lines into image.
@@ -97,7 +97,7 @@ To run the tool:
 6. Start counting (can take a while depending off number of tracks and counting lines).
 
 <p align="center">
-  <img src="/images/gui4.png" width="600" align="middle">
+  <img src="/images/gui3.png" width="600" align="middle">
 </p>
 
 7. Choose export granularities and save results to excel. 
